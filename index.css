@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #bfff4f; 
+    height: 100vh;           
+   margin: 20px;      
+    font-family: sans-serif;
+}
+
+
+#name {
+    width: 350px;              
+    padding: 15px 20px;        
+    font-size: 18px;        
+    border: 2px solid #3344cc; 
+    border-radius: 8px;       
+    outline: none;            
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+#name::placeholder {
+    color: #999;
+    font-style: italic;       
+}
+button{
+    width: 60px;
+    height: 20px;
+}
